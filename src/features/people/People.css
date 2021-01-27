@@ -1,0 +1,25 @@
+/* Could be used scss or styled-components */
+.people-table {
+    border-collapse: collapse;
+}
+
+.people-table .people-row:hover {
+    background: #FFE81F;
+    cursor: pointer;
+}
+
+.people-table .people-row.active {
+    background: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.people-table .people-row td {
+    border: 1px solid #000;
+}
+
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
